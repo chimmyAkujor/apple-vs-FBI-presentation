@@ -1,0 +1,169 @@
+body {
+  background-color: #6534ff;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 570px;
+  width: 1140px;
+  /* background-color: #676F7A; */
+  position: relative;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #7A7A7A;
+  text-align: center;
+ padding-top: 10px;
+}
+h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #7A7A7A;
+  text-align: right;
+  padding-right: 30px;
+}
+
+h3{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;  
+}
+header {
+  height: 120px;
+  width: 100%;
+  background-color: #c2dde6;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  width: 920px;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar div {
+  height: 80px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: verdana;
+  color: #E3E3E3;
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  padding-top: 11px;
+  width: 25%;
+  transition: left .80s ease;
+  -moz-transition: left .80s ease;
+  -o-transition: left .80s ease;
+  -webkit-transition: left .80s ease;
+  transition: width .1s ease;
+  -moz-transition: width .1s ease;
+  -webkit-transition: width .1s ease;
+  -o-transition: width .1s ease;
+}
+
+.tab1:hover {
+  width: 100%;
+}
+
+.tab2:hover {
+  width: 100%;
+  left: 0%;
+}
+
+.tab3:hover {
+  width: 100%;
+  right: 0%;
+}
+
+.tab4:hover {
+  width: 100%;
+}
+
+
+/* ----- TABS ----------------*/
+
+.tab1 {
+  background-color: #0093C2;
+}
+
+.tab2 {
+  background-color: #b5b5b7;
+  left: 25%;
+}
+
+.tab3 {
+  background-color: #677077;
+  right: 25%;
+}
+
+.tab4 {
+  background-color: #252839;
+  right: 0%;
+}
+
+.sidebar {
+  background-color: #f2b632;
+  width: 220px;
+  height: 530px;
+  float: right;
+}
+
+.main {
+  margin-right: 220px;
+}
+
+.content {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  
+}
+.content1,.content2,.content3,.content4 {
+    padding: 15px;
+    text-align: center;
+}
+.content3 ul {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    color: #fff;
+}
+
+#home-img {
+    height: 400px;
+    width: 400px;
+    border: 3px #252839 solid;
+}
+#hist-img {
+    height: 350px;
+    width: 400px;
+    border: 3px #252839 solid;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  height: 20px;
+  width: 1140px;
+  margin-top: 10px;
+}
+#points2 {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+.content2 ul li {
+    margin-bottom: 30px;
+}
+/** ------show hide -----**/
+.hide {
+    display: none;
+}
